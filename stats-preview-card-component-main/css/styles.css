@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+.bigdiv{
+    background-color: hsl(233, 47%, 7%);
+    
+    height: 600px;
+    margin: 0 100px 0 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.card{
+    background-color: hsl(244, 38%, 16%);
+    margin: 0 0 0 90px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+h1{
+    margin: 30px 90px 20px 30px;
+    color: rgba(255, 255, 255, 0.884);
+    padding: 20px 20px 0px 20px ;
+    font-family: Inter;
+    font-weight: 600;
+}
+p{
+    margin: 30px 90px 20px 30px;
+    color:  rgba(255, 255, 255, 0.678);
+    padding: 0 20px 20px 20px ;
+    font-family: Inter;
+    font-weight: 400;
+}
+.insight{
+    color: hsl(277, 64%, 61%);
+}
+.bigfoot{
+    padding: 0px 30px 30px 25px;
+    font-family: Inter;
+    word-spacing: 25px;
+}
+.footer{
+    display: inline-block;
+    color:  rgba(255, 255, 255, 0.884);
+    padding: 20px;
+    
+}
+.foothead{
+    font-size: larger;
+    font-weight: 700;
+}
+.foot{
+    color:  rgba(255, 255, 255, 0.678);
+    font-size: x-small;
+    font-weight: 300;
+}
+.image{
+    width: 450px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .coloroverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 64%, 61%, 0.308); /* Change the color and opacity as needed */
+    pointer-events: none; /* Allows clicks to pass through the overlay */
+  }
